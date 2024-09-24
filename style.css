@@ -1,1 +1,38 @@
+:root {
+    ---bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secondary-color: #e478db;
+    --font: "nunito sans", sans-serif;
 
+}
+
+body {
+    background-color: var(---bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
+nav {
+    display: flex
+;
+}
+
+
+
+
+
+nav a{
+text-decoration: none;
+color: var(---bg-color);
+margin: 0 2rem 1rem 0rem;
+font-size: 1.2rem;
+
+}
